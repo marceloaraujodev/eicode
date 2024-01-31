@@ -1,0 +1,7 @@
+O escopo é esse:
+-navbar com logo e botões de seções da pagina.
+-logo abaixo um "sobre nós" vou te mandar um exemplo de design de como quero essa parte.
+-nosso portfólio, com alguns projetos, irei de mandar como quero também essa parte. 
+-nossos programadores, uma sessão com uma apresentação simples de alguns membros da nossa equipe.
+-Parcerias, esse é algo simples pois temos apenas 1 parceria por enquanto. Então é basicamente só uma section com uma imagem dela.
+-entre em contato com  gente, uma sessão de envio de email.

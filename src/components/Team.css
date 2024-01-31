@@ -1,0 +1,52 @@
+.devsContainer{
+    position: relative;
+    overflow: hidden;
+    /* background-color: rgb(233, 233, 233); */
+    padding-bottom: 80px;
+}
+.nossoTimeTitle{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.bgDevs{
+    width: 100vw;
+}
+.teamTitle{
+    font-size: 3rem;
+}
+.teamPhotos{
+    margin-bottom: 70px;
+    z-index: 20;
+}
+.teamPhotos img{
+    object-fit: cover;
+    object-position: center;
+}
+.teamPhotos h2,
+.teamPhotos p{
+    color: rgb(255, 255, 255);
+}
+.marketing img{
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+} 
+.btnTeam{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #f2f2f2;
+    padding: 17px 25px 13px 25px;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+.shape2{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    right: -250px;
+    bottom: -250px;
+    background-color: rgb(44, 44, 44);
+    z-index: 0;
+}

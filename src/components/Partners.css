@@ -1,0 +1,52 @@
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#Parcerias{
+    margin-bottom: 200px;
+}
+.partnersContainer{
+    margin: 180px;
+    
+    }
+.partnersTitle{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.imgParceiros{
+    display: flex;
+    justify-content: center;
+
+}
+.imgParceiros img{
+    width: 60%;
+}
+
+.animate .partnersTitle{
+    animation: 0.9s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 normal both running tracking-in-expand;
+}
+
+@media (max-width: 992px) {
+    .p-5 {
+        padding: 0!important;
+    }
+    .container.py-5{
+        padding: 0!important;
+    }
+    .py-5 {
+        padding-top: 3rem!important;
+        padding-bottom: 0!important;
+    }
+    .imgParceiros{
+        margin-bottom: 100px;
+    }
+}

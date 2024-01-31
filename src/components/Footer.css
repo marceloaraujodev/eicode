@@ -1,0 +1,47 @@
+.containerShape{
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 100%;
+}
+.shape{
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    left: -10%;
+    top: 0%;
+    background-color: rgb(44, 44, 44);
+    z-index: -1;
+}
+
+/* .footer{
+    color: rgb(255, 255, 255);
+}
+.footer a{
+    color: rgb(255, 255, 255);
+}
+.footer a:hover{
+    color: rgb(255, 60, 0);
+} */
+.socialMediaIcon{
+    width: 25px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: white !important;
+}
+.emailtxt{
+    cursor: pointer;
+}
+@media (max-width: 998px) {
+    .containerShape {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width: 424px) {
+    .emailtxt{
+        display: none;
+    }
+}

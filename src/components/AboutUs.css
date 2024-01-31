@@ -1,0 +1,96 @@
+
+
+  @keyframes fade-in-fwd {
+    0% {
+      transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+   
+.aboutUs{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.eicodeTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    text-align: center;
+    overflow: hidden; /* Hide overflow to prevent text wrapping */
+}
+.eiLogo{
+    color: rgb(160, 59, 255);
+}
+.eicodeSubtitle{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.534);
+}
+.smallBox{
+    width: 50%;
+    padding-top: 20px;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.animate .eicodeTitle {
+  animation: tracking-in-expand 0.9s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 normal both;
+}
+
+.animate .eicodeSubtitle {
+  animation: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s 1 normal both running slide-in-right;
+}
+
+.animate .smallBox {
+  animation: 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) 0s 1 normal both running fade-in-fwd;
+}
+
+
+@media (max-width: 992px) {
+    .container.aboutUs{
+        margin-top: 50px;
+    }
+    .container.col-xxl-8.py-5 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .smallBox{
+        width: 100%;
+        text-align: center;
+    }
+    .eicodeTitle{
+        font-size: 2.5rem;
+    }
+    .eicodeSubtitle{
+        font-size: 2.5rem;
+    }
+}
